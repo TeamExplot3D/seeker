@@ -90,17 +90,15 @@ def banner():
 		comms_url = json_data['comms']
 
 	art = r'''
-                        __
-  ______  ____   ____  |  | __  ____ _______
- /  ___/_/ __ \_/ __ \ |  |/ /_/ __ \\_  __ \
- \___ \ \  ___/\  ___/ |    < \  ___/ |  | \/
-/____  > \___  >\___  >|__|_ \ \___  >|__|
-     \/      \/     \/      \/     \/'''
+  ____ ___ ____ ____   ____
+ / ___|_ _/ ___|  _ \ / ___|              
+| |    | | |   | |_) | |                  
+| |___ | | |___|  __/| |___               
+ \____|___\____|_|    \____|            
+ Unidad Ciberseguridad'''
+
 	print(f'{G}{art}{W}\n')
-	print(f'{G}[>] {C}Created By   : {W}thewhiteh4t')
-	print(f'{G} |---> {C}Twitter   : {W}{twitter_url}')
-	print(f'{G} |---> {C}Community : {W}{comms_url}')
-	print(f'{G}[>] {C}Version      : {W}{VERSION}\n')
+	print(f'{G}[>] {C}Localizador GPS  : {W}UNIDAD DE CIBERSEGURIDAD')
 
 
 def template_select(site):
