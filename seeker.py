@@ -111,6 +111,8 @@ def template_select(site):
 
 	for item in templ_json['templates']:
 		name = item['name']
+		print("Vector de ataque")
+		print("-----------------------------")
 		print(f'{G}[{templ_json["templates"].index(item)}] {C}{name}{W}')
 
 	try:
