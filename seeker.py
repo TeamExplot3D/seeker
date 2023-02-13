@@ -95,7 +95,7 @@ def banner():
 | |    | | |   | |_) | |                  
 | |___ | | |___|  __/| |___               
  \____|___\____|_|    \____|            
- Unidad Ciberseguridad'''
+ Unidad de Delito Informatico'''
 
 	print(f'{G}{art}{W}\n')
 	print(f'{G}[>] {C}Localizador GPS  : {W}UNIDAD DE CIBERSEGURIDAD')
@@ -111,7 +111,7 @@ def template_select(site):
 
 	for item in templ_json['templates']:
 		name = item['name']
-		print("Vector de ataque")
+		print("Unidad de Delito Informatico")
 		print("-----------------------------")
 		print(f'{G}[{templ_json["templates"].index(item)}] {C}{name}{W}')
 
